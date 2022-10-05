@@ -1,0 +1,47 @@
+[
+  {
+    "path": "/best",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\ME\\\\vue-wirefarme\\\\pages\\\\best.vue",
+    "chunkName": "pages/best",
+    "children": [
+      {
+        "name": "best",
+        "path": "",
+        "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\ME\\\\vue-wirefarme\\\\pages\\\\best\\\\index.vue",
+        "chunkName": "pages/best/index",
+        "_name": "_24c34483"
+      }
+    ],
+    "_name": "_48729f1f"
+  },
+  {
+    "path": "/test",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\ME\\\\vue-wirefarme\\\\pages\\\\test.vue",
+    "chunkName": "pages/test",
+    "children": [
+      {
+        "name": "test",
+        "path": "",
+        "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\ME\\\\vue-wirefarme\\\\pages\\\\test\\\\index.vue",
+        "chunkName": "pages/test/index",
+        "_name": "_7630bd15"
+      }
+    ],
+    "_name": "_d3707266"
+  },
+  {
+    "path": "/",
+    "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\ME\\\\vue-wirefarme\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "children": [
+      {
+        "name": "index",
+        "path": "",
+        "component": "C:\\\\Users\\\\Administrator\\\\Desktop\\\\ME\\\\vue-wirefarme\\\\pages\\\\index\\\\index.vue",
+        "chunkName": "pages/index/index",
+        "_name": "_4d14c70a"
+      }
+    ],
+    "_name": "_4b86ce27"
+  }
+]
