@@ -1,0 +1,656 @@
+@require '~vuetify/src/stylus/app'
+
+$themeColor = #267F53
+
+.theme--dark.v-list
+  background: transparent !important;
+
+.swal2-popup 
+  font-family: Roboto, sans-serif
+
+.mainColor
+  background-color: $themeColor !important
+  color: white !important
+
+.addColor
+  background-color: #5CB85C !important
+  color: white !important
+
+.editColor
+  background-color: #337AB7 !important
+  color: white !important
+
+.deleteColor
+  background-color: #D9534F !important
+  color: white !important
+
+.welcome-text
+  font-size: 2.5rem
+  color: $themeColor !important
+  font-weight: bold
+
+.welcome-text-mobile
+  font-size: 1.5rem
+  color: $themeColor !important
+  font-weight: bold
+
+.select-btn
+  height: 56px !important
+  font-size: 18px !important
+  border-radius: 30px
+
+.select-btn-mobile
+  height: 45px !important
+  font-size: 14px !important
+  border-radius: 30px
+
+.pasmo
+  display: flex 
+  align-items: center 
+  justify-content: center
+
+.pasmo-mobile
+  display: flex
+  justify-content: center
+
+.sara-logo
+  width:80%
+  margin: auto
+
+.sara-logo-mobile
+  width:60%
+  margin: auto
+
+.mainTextColor
+  color: $themeColor !important
+
+.credits-text
+  color: #696969 !important
+
+.login-header-text
+  position: relative !important
+  color: white
+  font-weight: bold
+  font-size: 16px !important
+  text-align: center
+
+.congrats-text
+  font-size: 1.8rem
+  color: $themeColor !important
+  font-weight: bold;
+
+body::-webkit-scrollbar
+  width: 8px
+
+  &-track
+    -webkit-box-shadow: inset 0 0 2px #888
+
+  &-thumb
+    background-color: $themeColor
+
+.forgot-text
+  color: rgba(0,0,0,0.7)
+
+.custom-loader 
+  animation: loader 1s infinite;
+  display: flex
+
+.navbar-bg
+  background-color: $themeColor !important
+  margin-top: 0 !important
+  max-height: 100% !important
+  z-index: 10 !important
+
+.navbar-bg-img
+  opacity: 0.10 !important
+  height: 100% !important
+  width: 100% !important
+  z-index: 0 !important
+  position: absolute !important
+  background-position-y: bottom !important
+  background-size: cover !important
+  background-repeat: no-repeat !important
+
+.line-height-1
+  line-height: 1.2
+
+.text-regular
+  font-weight: 300 !important
+
+.f-18
+  font-size: 18px !important
+
+.toolbar-btn-text
+  display: flex !important
+  flex-direction: column !important
+  line-height: 1.1   !important
+    
+.toolbar-btn-text>span
+  color: #000 !important
+
+.toolbar-btn-text>small
+  color: gray !important
+  text-align: left !important
+
+.logout-btn
+  display: flex
+  justify-content: center
+  width: 100%;
+
+.toolbar-btn
+  width: fit-content !important
+
+.profile-avatar>.v-image__image 
+  background-position: top !important
+  border-radius: 50% !important
+
+.h-100
+  height: 100%
+
+.h-80
+  height: 80%
+
+.w-100
+  width: 100%
+
+.card-title
+  font-size: 16px !important
+  line-height: 1
+
+.dashboard-card-title
+  font-size: 15px !important
+  font-weight: 500
+  line-height: 1
+  color: #9E9E9E
+
+.full-width-table-container
+  max-height: 600px !important
+  max-width: 100% !important
+  padding: 0 !important
+  margin: 0 !important
+
+.title-text
+  font-size: 20px
+  color: gray
+  line-height: 1 !important
+  letter-spacing: 0.02em !important
+
+.mb-30
+  margin-bottom: 30px
+
+.f-100
+  font-size: 100px !important
+
+.pointer
+  cursor: pointer !important
+
+.dlt-unit-btn
+  width: 30px !important
+  height: 30px !important
+
+.mt--10
+  margin-top: -10px !important
+
+.d-center
+  display: flex !important
+  justify-content: center !important
+
+.scroll::-webkit-scrollbar
+  width: 5px
+
+  &-track
+    -webkit-box-shadow: inset 0 0 2px #888
+
+  &-thumb
+    background-color: $themeColor
+
+.scroll-gray::-webkit-scrollbar
+  width: 5px
+
+  &-track
+    -webkit-box-shadow: inset 0 0 2px #888
+
+  &-thumb
+    background-color: #BDBDBD
+
+.choices-lessor
+  margin-top: -20px
+  height: auto
+  max-height: 150px
+  position: absolute
+  width: 85%
+  z-index: 200
+  background-color: white
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12)
+
+.choices-user
+  margin-top: -20px
+  height: auto
+  max-height: 100px
+  position: absolute
+  width: calc(100% - 32px)
+  z-index: 200
+  background-color: white
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12)
+
+.choices-unit
+  margin-top: -20px
+  height: auto
+  max-height: 120px
+  position: absolute
+  width: calc(100% - 32px)
+  z-index: 200
+  background-color: white
+  box-shadow: 0px 5px 5px -3px rgba(0,0,0,0.2), 0px 8px 10px 1px rgba(0,0,0,0.14), 0px 3px 14px 2px rgba(0,0,0,0.12)
+
+.choices-list
+  border-bottom: solid 1px #e2e2e2
+
+.modal-title
+  background: $themeColor
+  color: white
+  font-size: 16px
+
+.no-card
+  height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: space-evenly
+  align-items: center
+  padding-bottom: 50px
+  color: #ff0000
+  font-weight: 700
+
+.c-card
+  height: 100%
+  padding-bottom: 50px
+
+.flex-column
+  flex-direction: column
+
+.warn-text
+  color: #ff0000
+  font-weight: 700
+
+.border-bottom-light
+  border-bottom: 1px solid #eee
+
+.pt-34
+  padding-top: 34px
+
+.text-right
+  text-align: right !important
+
+.f-24
+  font-size: 24px !important
+
+.view-btn>.v-btn__content
+  justify-content: start !important
+  color: #9E9E9E
+
+.view-btn-user>.v-btn__content
+  justify-content: flex-end !important
+  color: #9E9E9E
+
+.dismiss-btn:before
+  opacity: 0 !important
+
+.dismiss-btn:after
+  opacity: 0 !important
+
+.flex-0
+  flex: 0 !important
+
+.note-badge
+  position: absolute
+  left: 15px
+
+.no-mt>.v-input--selection-controls
+  margin-top: 5px !important
+
+.no-mt>.v-input--selection-controls:not(.v-input--hide-details) .v-input__slot
+  margin-bottom: 2px !important 
+
+.no-mt>.v-input--selection-controls .v-input__control
+  margin-bottom: 5px !important
+
+.aaa>.v-text-field.v-text-field--solo:not(.v-text-field--solo-flat) > .v-input__control > .v-input__slot
+  margin-bottom: 0px !important
+
+.aaa>.v-text-field.v-text-field--enclosed .v-text-field__details
+  margin-bottom: 0px !important
+
+.text-bold
+  font-weight: 700 !important
+
+.f-16
+  font-size: 16px !important
+
+.gray
+  color: gray !important
+
+.alert-icon
+  height: 100% !important
+  width: 100% !important
+  font-size: 40px !important
+  color: #f97777 !important
+
+.notification-icon
+  height: 100% !important
+  width: 100% !important
+  color: #f97777 !important
+
+.lighter
+  opacity: 0.4 !important
+
+.notification-list>div>.v-list__tile--avatar
+  height: 40px !important
+  padding: 0 !important
+
+.pay-btn
+  position: absolute !important
+  right: 10px !important
+  height: 20px !important
+
+.addcharge-btn
+  height: 20px !important
+
+.small-textfield
+  font-size: 14px !important
+  padding-top: 0 !important
+  margin-top: 0 !important
+
+.small-textfield > .v-input__control > .v-input__slot
+  margin-bottom: 4px !important
+  width: 90% !important
+  border: 1px solid #929090 !important
+
+.small-textfield input
+  padding: 0 5px !important
+
+.text-right input
+  text-align: right !important
+
+.text-right > .v-input__control > .v-input__slot
+  width: 50% !important
+  margin-left: auto !important
+
+.simple-textarea
+  font-size: 14px !important
+  padding-top: 0 !important
+  margin-top: 0 !important
+
+.simple-textarea textarea
+  padding: 7px 5px !important
+
+.simple-textarea > .v-input__control > .v-input__slot
+  margin-bottom: 4px !important
+  border: 1px solid #929090 !important
+
+.btn-hr
+  margin-top: -15px !important
+  margin-bottom: 15px !important
+  border-width: 2px !important
+
+.event-btn
+  position: absolute !important
+  bottom: 10px !important
+  padding-right: 32px !important
+
+.services-card
+  border-radius: 5px !important
+  position: relative !important
+  cursor: pointer !important
+
+.border-b
+  border-bottom: 1px solid #D8D8D8
+
+.image-container
+  background-image:white
+  height: 32vh
+  overflow: hidden
+  border-radius: 5px
+
+.workradio>.v-input__control
+  width: 100% !important
+
+.margin-li>li
+  font-size: 13px
+  font-weight: 500
+
+.d-flex-row-center
+  display: flex !important
+  justify-content: center !important
+
+.d-flex-column-center
+  display: flex !important
+  justify-content: center !important
+  flex-direction: column !important
+
+.d-flex-space-between
+  display: flex !important
+  justify-content: space-between !important
+
+.d-flex-align-center
+  display: flex !important
+  align-items: center !important
+
+.center-item
+  display: flex !important
+  align-items: center !important
+  justify-content: center !important
+
+.black-placeholder>div>div>div>input::placeholder
+  color: #000000de !important
+
+.textfield-uppercase>div>div>div>input
+  text-transform: uppercase !important;
+
+.small-chip
+  height: 16px !important
+  font-size: 11px !important
+
+.labeltext
+  font-size: 13px !important
+  color: #0000008a !important
+
+.labelColor
+  color: #0000008a !important
+
+.h-auto>.v-list__tile
+  height: auto !important
+
+.shadow
+  box-shadow: 0px 11px 15px -7px rgba(0,0,0,0.2), 0px 24px 38px 3px rgba(0,0,0,0.14), 0px 9px 46px 8px rgba(0,0,0,0.12)
+
+.center-alignment
+  display: flex !important
+  justify-content: center !important
+  align-items: center !important
+
+.v-input--selection-controls:not(.v-input--hide-details) .v-input__slot
+  margin-bottom: 0px !important
+
+.customnavs
+  z-index: 1 !important
+  position: relative !important
+  background: transparent !important
+
+.cr_img
+  background-color: $themeColor !important
+  width: 50px !important
+  height: 50px !important
+
+.icon-btn
+  min-width: 40px !important
+
+.tablePadding10>div>table.v-table thead td:not(:nth-child(1)), .tablePadding10>div>table.v-table tbody td:not(:nth-child(1)), .tablePadding10>div>table.v-table thead th:not(:nth-child(1)), .tablePadding10>div>table.v-table tbody th:not(:nth-child(1)), .tablePadding10>div>table.v-table thead td:first-child, .tablePadding10>div>table.v-table tbody td:first-child, .tablePadding10>div>table.v-table thead th:first-child, .tablePadding10>div>table.v-table tbody th:first-child
+  padding: 0 10px !important
+
+.club-calendar-filter
+  position: absolute
+  top: 0
+  right: 0
+  margin-top: 11px
+
+.editable 
+  border: 1px solid grey
+  border-radius: 5px;
+  height: 25px
+
+.functionBtn
+  min-height: 50px !important
+
+.custom-data
+  font-size: 30px !important
+  color: $themeColor
+  font-weight: bold
+
+.logo-thumbmark
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  display: flex
+  justify-content: center
+  align-items: center
+
+.dashboardSearch.v-text-field--solo .v-input__control
+  min-height: 36px !important
+
+.navbar-badge>.v-badge__badge
+  font-size: 12px !important
+  top: 0px !important
+  right: -25px !important
+
+.circle-edge>.v-input__control>.v-input__slot
+  border-radius: 20px !important
+
+.email-header-text
+  font-size: 18px
+  color: $themeColor
+
+main.v-content.crowd-1 > div.v-content__wrap {
+  position: relative;
+}
+
+main.v-content.crowd-1 > div.v-content__wrap > * {
+  z-index: 1;
+  position: relative;
+}
+
+.filter-button {
+  width: 100%;
+}
+
+.filter-button .v-btn__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.analytics-counter {
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 8px;
+  box-shadow: 5px 5px 14px 0px #00000030;
+  padding: 1em 1em;
+  opacity: 0.9;
+  background: #267f53;
+  min-height: 200px;
+}
+
+.analytics-counter h3, .analytics-counter h4 {
+  font-weight: bold;
+  // color: #878787;
+  color: white;
+}
+
+.filters-container {
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 8px;
+  box-shadow: 5px 5px 14px 0px #00000030;
+  margin: 0 0.7vw 0.7em 0.7vw;
+  padding: 1em 1em;
+  opacity: 0.9;
+  z-index: 2;
+  background: #267f53;
+}
+
+.dashboard-filter * {
+  color: black !important;
+}
+
+.dashboard-filter .v-input__slot {
+  background: white !important;
+  min-height: unset;
+}
+
+.dashboard-filter .v-text-field__details {
+  display: none;
+}
+
+.categoryText>div>div>div>div>.v-messages__message
+  color: red !important;
+
+.v-select {
+  color: black !important;
+  width: 100% !important;
+}
+
+.v-select .vs__dropdown-toggle {
+  background-color: white;
+}
+
+.back-button {
+  position: absolute; 
+  top: 30px; 
+  display: flex; 
+  align-items: center; 
+  color: white; 
+  cursor: pointer; 
+  font-size: 20px; 
+  padding: 10px; 
+  padding-right: 25px; 
+  background: #267F53;
+}
+
+.bg-cover  {
+  background-size: cover !important;
+}
+
+.toUppercase input {
+  text-transform: uppercase !important;
+}
+
+.theme-list {
+  width: 100% !important;
+}
+
+.filter>div>.v-text-field__details {
+  display: none !important;
+}
+
+@-moz-keyframes loader
+  from
+    transform: rotate(0)
+  to
+    transform: rotate(360deg)
+
+
+@-webkit-keyframes loader
+  from
+    transform: rotate(0)
+  to
+    transform: rotate(360deg)
+
+@-o-keyframes loader
+  from
+    transform: rotate(0)
+  to
+    transform: rotate(360deg)
+
+@keyframes loader
+  from
+    transform: rotate(0)
+  to 
+    transform: rotate(360deg)
